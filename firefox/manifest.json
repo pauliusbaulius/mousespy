@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "MouseSpy",
+  "version": "3",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "<all_urls>"
+  ],
+  "author": "dev@paulius.xyz",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "ic32.svg",
+      "64": "ic64.svg",
+      "128": "ic128.svg"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{0cba6784-d438-4102-a323-aca28b6c6bf3}"
+    }
+  }
+}
