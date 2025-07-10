@@ -2,6 +2,8 @@
 
 Firefox and Chrome extensions to sample mouse movement data and sent it to user configured endpoint for research purposes.
 
+[Install the official Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/mousespy/)
+
 ## Images
 
 ![MouseSpy Extension Interface](assets/img1.png)
