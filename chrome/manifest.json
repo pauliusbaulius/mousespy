@@ -3,16 +3,12 @@
     "name": "MouseSpy",
     "version": "1",
     "permissions": [
-        "activeTab",
         "storage"
     ],
     "author": "gerve@paulius.xyz",
     "background": {
         "service_worker": "background.js"
     },
-    "host_permissions": [
-        "<all_urls>"
-    ],
     "content_scripts": [
         {
             "matches": [
